@@ -9,16 +9,16 @@ int main()
     {
         if (last % 2 == 0)
         {
-            printf("%d ", last);
+            std::cout << last << " ";
             last = last / 2;
         }
         else
         {
-            printf("%d ", last);
+            std::cout << last << " ";
             last = last * 3 + 1;
         }
     }
-    printf("%d", 1);
+    std::cout << 1;
 
     return 0;
 }
