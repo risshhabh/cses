@@ -2,7 +2,7 @@
 
 int main()
 {
-    int last{};
+    long unsigned int last{};
     std::cin >> last;
 
     while (last != 1)
